@@ -11,7 +11,32 @@
             <p><label for="inicio">Início : </label>
                 <input type="date" id="inicio" name="inicio" min="2011-01-01"/></p>
             <p><label for="concerto">Concerto : </label>
-                <input type="datetime-local" id="concerto" name="inicio" min="2011-01-01"/></p>
+                <input type="datetime-local" id="concerto" name="concerto"/></p>
+            <p><label for="seuemail">Email : </label>
+                <input type="email" id="seuemail" name="seuemail" required/></p>
+            <p><label for="ferias">Férias : </label>
+                <input type="month" id="ferias" name="ferias"/></p>
+            <p><label for="musicas">Músicas : </label>
+                <input type="number" id="musicas" name="musicas" min="2" max="8"/></p>
+            <p><label for="altitude">Altitude : </label>
+                <input type="range" id="altitude" name="altitude" min="100" max="1000" step="100"/></p>
+            <p><label for="busca">Busca : </label>
+                <input type="search" id="busca" name="busca" placeholder="pesquisar..."/></p>
+            <p>Download de Arquivo 1: <progress value="85" max="100">85%</progress></p>
+            <p><label for="horario"> Horário: </label>
+                <input type="time" id="horario" name="horario"/></p>
+            <p><label for="semana"> semana: </label>
+                <input type="week" id="semana" name="semana"/></p>
+            <p><label for="instrumento"> Escolha seu instrumento: </label>
+                <select name="instrumento" id="instrumento">
+                    <option value="trp">Trompete</option>
+                    <option value="trp">Trompa</option>
+                    <option value="trp">Trombone</option>
+                    <option value="trp">Tuba</option>
+                </select>
+            </p>
+
+            
 
         </form>
     </body>
